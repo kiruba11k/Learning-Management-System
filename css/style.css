@@ -1,0 +1,112 @@
+
+
+
+/* Additional styling for buttons */
+.btn {
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+.navbar-brand {
+  position: fixed;
+  
+  background-color: #225470;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+.custom-nav{
+  background-color: #225470;
+}
+
+.custom-nav .custom-nav-item a {
+margin-left: 70px;
+  background-color: #225470;
+  color: #fff !important;
+}
+
+.custom-nav-item:hover {
+
+  background-color: #225470;
+  border: solid #225470 1px;
+  border-radius: 10px;
+}
+
+.remove-img-marg {
+  margin: 10px;
+  padding: 0px;
+}
+
+.img-parent {
+  position: relative;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #225470;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.img-content {
+  background-color: #19b29e;
+  color: #fff;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bottom-banner {
+  color: #fff;
+  padding: 10px;
+}
+
+.bottom-banner:first-child {
+  padding-left: 50px;
+}
+
+a.social-hover:hover {
+  padding: 5px 100px;
+  text-decoration: none;
+  background-color: rgb(95, 93, 93);
+}
+
+
+.stripe {
+  background-image: linear-gradient(240deg, #ed213a, #93291e);
+  padding: 3rem;
+  height: 13rem;
+  margin-top: 4rem;
+  transform: rotate(10deg);
+  z-index: -5;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .my-content,
+  .txt-banner,
+  .stripe {
+    display: none;
+  } /* hide it on small screens */
+
+  .img-content {
+    top: 12%;
+    left: 60%;
+  }
+  .custom-nav .custom-nav-item a {
+    padding: 10px 20px;
+    background-color: #225470;
+  }
+
+  .custom-nav-item:hover {
+    background-color: none;
+    border: none;
+    border-radius: none;
+  }
+}
