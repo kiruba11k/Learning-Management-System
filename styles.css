@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background:  #83a4d4;
     font-family: 'Arial', sans-serif;
@@ -67,3 +68,74 @@ body {
 .text-center {
     text-align: center;
 }
+=======
+body {
+    background:  #83a4d4;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-body {
+
+    position: relative;
+    padding: 2rem;
+}
+
+.card-body h2 {
+    font-weight: bold;
+    color: #cdddef;
+}
+
+.btn-primary {
+    background: #cdddef;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.rounded-3d {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.rounded-3d:hover {
+    transform: translateY(-5px);
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-group label i {
+    margin-right: 10px;
+}
+
+.text-primary {
+    color: #b4d2f4;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+>>>>>>> 109f3f8e230fc89dc7569212f5a58ec112f08ca9
